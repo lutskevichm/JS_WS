@@ -2,7 +2,6 @@ const chai = require('chai'),
     chaiHttp = require('chai-http');
 chai.use(chaiHttp);
 const expect = chai.expect;
-const should = chai.should();
 const sendRequest = require('../lib/sendRequest');
 const getCustomer = require('../data/getCustomer');
 const env = require('../endpoint/test');
