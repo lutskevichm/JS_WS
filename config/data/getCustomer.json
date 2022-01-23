@@ -1,0 +1,9 @@
+[
+    {
+        "uri": "/ipb-app/services/customercore-rs/v1/customers/510000",
+        "method": "GET",
+        "headers": {
+            "User-Agent": "Request-Promise"
+        }
+    }
+]

@@ -1,0 +1,20 @@
+{
+    "devDependencies": {
+        "@wdio/cli": "^7.7.5",
+        "@wdio/concise-reporter": "^7.16.13",
+        "@wdio/dot-reporter": "^7.16.13",
+        "@wdio/local-runner": "^7.7.5",
+        "@wdio/mocha-framework": "^7.7.3",
+        "@wdio/spec-reporter": "^7.16.13",
+        "chromedriver": "^97.0.0",
+        "wdio-chromedriver-service": "^7.2.6"
+    },
+    "scripts": {
+        "wdio": "wdio run wdio.conf.js"
+    },
+    "dependencies": {
+        "chai": "^4.3.4",
+        "chai-http": "^4.3.0",
+        "request-promise-native": "^1.0.9"
+    }
+}
